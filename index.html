@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Navegador Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .google-logo-large {
+            width: 400px;
+            height: auto;
+            margin: 20px auto 50px;4
+            display: block;
+        }
+
+        .search-container {
+            text-align: center;
+        }
+
+        .search-box {
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 16px;
+            background-color: #ffffff;
+            color: #333333;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-btn,
+        .lucky-btn {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .search-btn:hover,
+        .lucky-btn:hover {
+            background-color: #333;
+        }
+
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            margin-top: -20px;
+            margin-left: -40px;
+            margin-bottom: -20px
+        }
+    </style>
+</head>
+<body>
+    <img class="google-logo-large" src="https://lh3.googleusercontent.com/H8hhcUas7f9Pi4aMLTQfSTVk1wwE1d_SPYYGldXn9S8GARJis2ED4EpnIfXzfBhTP8KZM64bFnmgowpU3Ct7b7OznwcRakNOM3mB2KRr=s660">
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" class="search-box" placeholder="Pesquisar no Google">
+            <br>
+            <button type="submit" class="search-btn">Pesquisar</button>
+            <a href="https://doodles.google/" class="lucky-btn">Sinto-me com sorte</a>
+        </form>
+    </div>
+    <div class="footer">
+        <img class="avatar" src="https://pm1.aminoapps.com/7664/6c825cfaff845c83a7e0a2cdf77afbe24b04f18br1-554-554v2_00.jpg" alt="Avatar">
+        &copy; Disponibilizado pelo Google em: Português (Brasil) - 2024
+    </div>
+</body>
+</html>
